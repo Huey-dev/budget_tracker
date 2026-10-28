@@ -4,7 +4,8 @@ const home = () => {
   return (
     <div>my budget tracker homepage
 
-      <p>hello world!</p>
+      <p>hello world!!</p>
+
     </div>
     
   )
