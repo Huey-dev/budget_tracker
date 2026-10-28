@@ -4,7 +4,7 @@ const home = () => {
   return (
     <div>my budget tracker homepage
 
-      <p>hello world</p>
+      <p style = "color: blue;">hello world</p>
     </div>
     
   )
