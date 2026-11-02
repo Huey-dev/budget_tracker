@@ -1,14 +1,9 @@
-import React from 'react'
+import TransactionForm from "./component/transactions/transaction-form";
 
-const home = () => {
+export default function Home() {
   return (
-    <div>my budget tracker homepage
-
-      <p>hello world!!</p>
-
-    </div>
-    
-  )
+    <main>
+      <TransactionForm />
+    </main>
+  );
 }
-
-export default home

@@ -1,12 +1,17 @@
 "use client";
 
+import { useState } from "react";
+
 export default function TransactionForm() {
+  const [amount, setAmount] = useState("");
+
   return (
-    <section>
-      <h2>Transaction Form</h2>
-
-      {/* TRANSACTION FORM CONTENT */}
-
-    </section>
+    <form>
+      <input
+        value={amount}
+        onChange={(event) => setAmount(event.target.value)}
+        placeholder="Enter amount"
+      />
+    </form>
   );
 }
