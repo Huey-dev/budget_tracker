@@ -7,6 +7,7 @@ export default function TransactionForm() {
 
   return (
     <form>
+      <h1>hi welcome</h1>
       <input
         value={amount}
         onChange={(event) => setAmount(event.target.value)}
