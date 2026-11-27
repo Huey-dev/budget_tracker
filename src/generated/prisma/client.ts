@@ -46,3 +46,8 @@ export { Prisma }
  * 
  */
 export type User = Prisma.UserModel
+/**
+ * Model BudgetAccount
+ * 
+ */
+export type BudgetAccount = Prisma.BudgetAccountModel

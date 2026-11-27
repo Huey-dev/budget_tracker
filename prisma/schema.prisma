@@ -17,3 +17,21 @@ model User {
 
   @@map("users")
 }
+
+model BudgetAccount {
+  id                  String @id @default(uuid()) @db.Uuid
+  name                String
+  currency            String
+  openingBalanceMinor Int
+  createdAt DateTime @default(now())
+}
+
+
+
+
+
+
+
+
+
+
